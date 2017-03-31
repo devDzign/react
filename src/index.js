@@ -20,13 +20,13 @@ class App extends React.Component {
 
     };
 
-componentWillMount(){
-    const localStorageText = localStorage.getItem('text');
-  if(localStorageText){
+    componentWillMount() {
+        const localStorageText = localStorage.getItem('text');
+        if (localStorageText) {
 
-      this.setState({text: localStorageText});
-  }
-}
+            this.setState({text: localStorageText});
+        }
+    }
 
     /**
      * avant le rendu
