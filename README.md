@@ -1,2 +1,5 @@
 # react
-react test 
+react init version
+
+    npm install
+    npm start 
